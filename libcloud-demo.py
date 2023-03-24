@@ -5,7 +5,7 @@ from libcloud.compute.providers import get_driver
 
 Driver = get_driver(Provider.GCE)
 gce = Driver('pyclient@<Project ID>.iam.gserviceaccount.com',
-             '<key>.json',
+             'pyclient.json',
              datacenter='<Zone>',
              project='<Project ID>')
 
