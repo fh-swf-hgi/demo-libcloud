@@ -10,7 +10,7 @@ gce = Driver('pyclient@<Project ID>.iam.gserviceaccount.com',
              project='<Project ID>')
 
 gce.list_nodes()
-node = gce.create_node(name="<User ID>-libcloud-vm", image='ubuntu-minimal-2204-jammy-v20230302', size='f1-micro')
+node = gce.create_node(<Ihre Parameter hier>)
 gce.list_nodes()
 #node.destroy()
 #gce.list_nodes()
